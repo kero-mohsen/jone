@@ -1,0 +1,15 @@
+def divison (x, y):
+    if y == 0:
+        return "divison by zero not allowed"
+    else:
+        return x / y
+z = divison(10,5)
+run
+print(z)
+print(type(z))
+z = int(z)
+print(z)
+print(type(z))
+z = str(z)
+print(z)
+print(type(z))
