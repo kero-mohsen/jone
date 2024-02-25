@@ -1,0 +1,10 @@
+كود excle
+
+
+import pandas as pd 
+import numpy as np 
+
+df = pd.DataFrame({'kero':[np.nan,1.2345678910,121212,np.nan],
+                  '3mr':[np.nan,12145,3642,np.nan],
+                  'tony':[np.nan,789548,np.nan,np.nan]})
+df

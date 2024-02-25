@@ -1,0 +1,3 @@
+import pandas as pd
+kero=pd.read_csv(r"path.csv")
+kero.to_excel(r"path.xlsx")

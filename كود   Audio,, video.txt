@@ -1,0 +1,2 @@
+import subprocess 
+k=subprocess.call(["ffmpeg","-i","path", "path change"])
